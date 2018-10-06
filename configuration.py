@@ -137,16 +137,30 @@ def __get_ws2801_colors__():
     Returns the color codes for a WS2801 based light set.
     """
 
+#100% brightness
+#    return {
+#        weather.RED: (255, 0, 0),
+#        weather.GREEN: (0, 255, 0),
+#        weather.BLUE: (0, 0, 255),
+#        weather.LOW: (255, 0, 255),
+#        weather.OFF: (0, 0, 0),
+#        weather.GRAY: (50, 50, 50),
+#        weather.YELLOW: (255, 255, 0),
+#        weather.DARK_YELLOW: (20, 20, 0),
+#        weather.WHITE: (255, 255, 255)
+#    }
+
+#30% brightness
     return {
-        weather.RED: (255, 0, 0),
-        weather.GREEN: (0, 255, 0),
-        weather.BLUE: (0, 0, 255),
-        weather.LOW: (255, 0, 255),
+        weather.RED: (75, 0, 0),
+        weather.GREEN: (0, 75, 0),
+        weather.BLUE: (0, 0, 75),
+        weather.LOW: (75, 0, 75),
         weather.OFF: (0, 0, 0),
-        weather.GRAY: (50, 50, 50),
-        weather.YELLOW: (255, 255, 0),
-        weather.DARK_YELLOW: (20, 20, 0),
-        weather.WHITE: (255, 255, 255)
+        weather.GRAY: (15, 15, 15),
+        weather.YELLOW: (75, 75, 0),
+        weather.DARK_YELLOW: (5, 5, 0),
+        weather.WHITE: (75, 75, 75)
     }
 
 
